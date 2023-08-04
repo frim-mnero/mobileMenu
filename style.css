@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "TTLakes";
+  src: url(./fonts/TTLakes-Regular.woff) format("truetype");
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu {
+  padding-left: 24px;
+  position: relative;
+  left: 0;
+  background: #fff;
+  box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2),
+    -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
+  width: 320px;
+  height: 1024px;
+  flex-shrink: 0;
+}
+.menu__header {
+  display: flex;
+}
+.burger {
+  padding-top: 24px;
+  padding-right: 16px;
+}
+.search {
+  padding-top: 24px;
+  padding-right: 24px;
+  margin-left: auto;
+}
+.logo {
+  padding-left: 16px;
+  padding-top: 18.73px;
+}
+.menu__header_item {
+  background-color: inherit;
+  border: none;
+}
+.menu__nav {
+  margin-top: 50px;
+  margin-bottom: 268px;
+}
+ul.menu__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+.menu__list_item {
+  list-style: none;
+}
+.menu__list_item > a {
+  text-decoration: none;
+  color: #1b1c21;
+  font-family: TTLakes;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.2px;
+}
+a.active {
+  color: #7e7e82;
+  font-family: TTLakes;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.2px;
+}
+.menu__footer_group {
+  width: 152px;
+  display: flex;
+  gap: 16px;
+}
+.menu__footer_group-item {
+  background-color: inherit;
+  border: none;
+  margin-bottom: 16px;
+}
+.mail {
+  color: #1b1c21;
+  font-family: TTLakes;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.2px;
+  margin-bottom: 12px;
+}
+.number {
+  color: #1b1c21;
+  font-family: TTLakes;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.6px;
+  margin-bottom: 40px;
+}
+.menu__footer_group-lang {
+  display: flex;
+  gap: 7px;
+}
+.footer_group-lang-item {
+  border: none;
+  color: #1b1c21;
+  font-family: TTLakes;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.2px;
+  background-color: inherit;
+}
+.lang-active {
+  color: #7e7e82;
+  font-family: TTLakes;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.2px;
+}

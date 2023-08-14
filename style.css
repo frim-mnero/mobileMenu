@@ -16,7 +16,7 @@
   box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2),
     -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
   width: 320px;
-  height: 1024px;
+  height: 100vh;
   flex-shrink: 0;
 }
 .menu__header {
@@ -41,7 +41,7 @@
 }
 .menu__nav {
   margin-top: 50px;
-  margin-bottom: 268px;
+  /* margin-bottom: 268px; */
 }
 ul.menu__list {
   display: flex;
@@ -69,6 +69,10 @@ a.active {
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: -0.2px;
+}
+.menu__footer{
+  position: fixed;
+  bottom: 32px;
 }
 .menu__footer_group {
   width: 152px;

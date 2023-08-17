@@ -21,19 +21,16 @@
 }
 .menu__header {
   display: flex;
+  /* justify-content: space-around; */
+  padding: 16px;
+  padding-left: 0;
 }
-.burger {
-  padding-top: 24px;
-  padding-right: 16px;
-}
-.search {
-  padding-top: 24px;
-  padding-right: 24px;
-  margin-left: auto;
-}
+
 .logo {
-  padding-left: 16px;
-  padding-top: 18.73px;
+  /* padding-left: 16px; */
+  /* padding-top: 18.73px; */
+  margin-left: 16px;
+  margin-right: 78px;
 }
 .menu__header_item {
   background-color: inherit;

@@ -45,6 +45,10 @@ ul.menu__list {
   flex-direction: column;
   row-gap: 32px;
 }
+ul.menu__list a{
+  width: 100%;
+ display: block
+}
 .menu__list_item {
   list-style: none;
 }
@@ -75,11 +79,15 @@ a.active {
   width: 152px;
   display: flex;
   gap: 16px;
+  padding-bottom: 16px;
 }
 .menu__footer_group-item {
   background-color: inherit;
   border: none;
-  margin-bottom: 16px;
+}
+.menu_footer_item{
+  display: block;
+  text-decoration: none;
 }
 .mail {
   color: #1b1c21;
@@ -124,4 +132,10 @@ a.active {
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: -0.2px;
+}
+
+.btn>img:hover{
+  filter: drop-shadow(0.5px 0.5px 3px black);
+  transform: scale(1.1);
+  transition-duration: 0.5s;
 }
